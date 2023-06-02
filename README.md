@@ -1,5 +1,9 @@
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camenduru/Text-To-Video-Finetuning-colab/blob/main/dataset.ipynb) dataset <br />
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camenduru/Text-To-Video-Finetuning-colab/blob/main/train.ipynb) train <br />
+## 🦒 Colab
+
+| Colab | Info
+| --- | --- |
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camenduru/Text-To-Video-Finetuning-colab/blob/main/dataset.ipynb) | dataset
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camenduru/Text-To-Video-Finetuning-colab/blob/main/train.ipynb) | train
 
 ## Data
 https://github.com/microsoft/XPretrain/tree/main/hd-vila-100m (HD-VILA-100M Dataset) <br />
