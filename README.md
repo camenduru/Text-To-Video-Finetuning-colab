@@ -17,5 +17,5 @@ https://github.com/ExponentialML/Video-BLIP2-Preprocessor <br />
 ## Test Dataset
 https://huggingface.co/camenduru/test_blip2/tree/main (500 clips) <br />
 
-## Trainer
+## Main Repo
 https://github.com/ExponentialML/Text-To-Video-Finetuning <br />
