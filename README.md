@@ -19,7 +19,10 @@ https://github.com/ExponentialML/Video-BLIP2-Preprocessor <br />
 ### Main Repo
 https://github.com/ExponentialML/Text-To-Video-Finetuning <br />
 
-## Prototype
+## 🚦 Prototype 🚦
 ### Potat 1️⃣
 Model: https://huggingface.co/camenduru/potat1 <br />
 Dataset: https://huggingface.co/camenduru/potat1_dataset/tree/main <br />
+#### Potat 1️⃣ Output
+
+https://github.com/camenduru/Text-To-Video-Finetuning-colab/assets/54370274/97282de4-e1df-49a0-851e-cb8b4b040441
