@@ -26,3 +26,7 @@ Dataset: https://huggingface.co/camenduru/potat1_dataset/tree/main <br />
 #### Potat 1️⃣ Output
 
 https://github.com/camenduru/Text-To-Video-Finetuning-colab/assets/54370274/97282de4-e1df-49a0-851e-cb8b4b040441
+
+Please try it 🐣 <br />
+
+https://github.com/camenduru/text-to-video-synthesis-colab
