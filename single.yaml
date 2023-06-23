@@ -16,8 +16,8 @@ text_encoder_lora_modules:
   - "CLIPEncoderLayer"
 lora_rank: 16
 train_data:
-  width: 512      
-  height: 288
+  width: 448      
+  height: 256
   use_bucketing: True
   sample_start_idx: 1
   fps: 24 
@@ -29,8 +29,8 @@ validation_data:
   prompt: "ytrweorwer"
   sample_preview: False
   num_frames: 10
-  width: 512
-  height: 288
+  width: 448
+  height: 256
   num_inference_steps: 25
   guidance_scale: 9
 learning_rate: 5e-6
