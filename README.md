@@ -7,6 +7,7 @@
 | --- | --- |
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camenduru/Text-To-Video-Finetuning-colab/blob/main/dataset.ipynb) | dataset
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camenduru/Text-To-Video-Finetuning-colab/blob/main/train.ipynb) | train
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camenduru/Text-To-Video-Finetuning-colab/blob/main/train_single.ipynb) | train single video
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/camenduru/Text-To-Video-Finetuning-colab/blob/main/inference.ipynb) | inference
 
 ### Data

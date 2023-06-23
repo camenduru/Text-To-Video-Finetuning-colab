@@ -1,0 +1,64 @@
+pretrained_model_path: "/content/models/model_scope_diffusers/"
+output_dir: "/content/outputs"
+dataset_types:
+  - 'single_video'
+offset_noise_strength: 0.1
+use_offset_noise: False
+extend_dataset: False
+cache_latents: True
+cached_latent_dir: null
+train_text_encoder: False
+use_unet_lora: True
+use_text_lora: True
+unet_lora_modules:
+  - "ResnetBlock2D"
+text_encoder_lora_modules:
+  - "CLIPEncoderLayer"
+lora_rank: 16
+train_data:
+  width: 1024      
+  height: 576
+  use_bucketing: True
+  sample_start_idx: 1
+  fps: 24 
+  frame_step: 1
+  n_sample_frames: 1
+  single_video_path: "/content/video.mp4"
+  single_video_prompt: "ytrweorwer"
+validation_data: 
+  prompt: "ytrweorwer"
+  sample_preview: False
+  num_frames: 10
+  width: 1024
+  height: 576
+  num_inference_steps: 25
+  guidance_scale: 9
+learning_rate: 5e-6
+adam_weight_decay: 1e-2
+extra_unet_params: null
+  #learning_rate: 1e-5
+  #adam_weight_decay: 1e-4
+extra_text_encoder_params: null
+  #learning_rate: 5e-6
+  #adam_weight_decay: 0.2
+train_batch_size: 1
+max_train_steps: 10000
+checkpointing_steps: 2500
+trainable_modules:
+  # If you want to ignore temporal attention entirely, remove "attn1-2" and replace with ".attentions"
+  # This is for self attetion. Activates for spatial and temporal dimensions if n_sample_frames > 1
+  - "attn1"
+  # This is for cross attention (image & text data). Activates for spatial and temporal dimensions if n_sample_frames > 1
+  - "attn2"
+  #  Convolution networks that hold temporal information. Activates for spatial and temporal dimensions if n_sample_frames > 1
+  - 'temp_conv'
+trainable_text_modules:
+  - "all"
+mixed_precision: "fp16"
+use_8bit_adam: False 
+# Trades VRAM usage for speed. You lose roughly 20% of training speed, but save a lot of VRAM.
+# If you need to save more VRAM, it can also be enabled for the text encoder, but reduces speed x2.
+gradient_checkpointing: True
+text_encoder_gradient_checkpointing: True
+enable_xformers_memory_efficient_attention: False
+enable_torch_2_attn: True
