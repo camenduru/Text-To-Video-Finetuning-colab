@@ -5,7 +5,7 @@ dataset_types:
 offset_noise_strength: 0.1
 use_offset_noise: False
 extend_dataset: False
-cache_latents: True
+cache_latents: False
 cached_latent_dir: null
 train_text_encoder: False
 use_unet_lora: True
@@ -60,5 +60,5 @@ use_8bit_adam: False
 # If you need to save more VRAM, it can also be enabled for the text encoder, but reduces speed x2.
 gradient_checkpointing: True
 text_encoder_gradient_checkpointing: True
-enable_xformers_memory_efficient_attention: False
-enable_torch_2_attn: True
+enable_xformers_memory_efficient_attention: True
+enable_torch_2_attn: False
